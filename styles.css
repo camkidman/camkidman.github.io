@@ -1,0 +1,42 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background: #d57eeb;
+  background-image: linear-gradient(120deg, #fccb90 0%, #d57eeb 100%);
+}
+
+.cover {
+  background-color: rgb(255, 255, 255, .9);
+  color: #454e56;
+}
+
+.scrollable-y {
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.btn {
+  border-radius: 40px;
+  margin-bottom: 15px;
+  margin-right: 15px;
+}
+
+.btn-outline-dark {
+  border-color: #8e44ad;
+  color: #8e44ad;
+  transition: all 0.3s ease 0s;
+}
+
+.btn-outline-dark:hover,
+.btn-outline-dark:focus
+{
+  background-color: #8e44ad;
+  border-color: #8e44ad;
+}
+
+.fa {
+  margin-right: 15px;
+}
